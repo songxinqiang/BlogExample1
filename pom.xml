@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -11,6 +10,32 @@
     <artifactId>blog-example-1</artifactId>
     <version>1</version>
     <packaging>war</packaging>
+
+    <name>Blog Show Example 1</name>
+    <description>博客演示项目1</description>
+    <url>https://git.oschina.net/songxinqiang/BlogExample1</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>阿信sxq</name>
+            <email>songxinqiang@vip.qq.com</email>
+            <url>http://my.oschina.net/songxinqiang/</url>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@git.oschina.net:songxinqiang/BlogExample1.git</connection>
+        <developerConnection>scm:git:git@git.oschina.net:songxinqiang/BlogExample1.git</developerConnection>
+        <url>https://git.oschina.net/songxinqiang/BlogExample1</url>
+    </scm>
 
     <dependencies>
     </dependencies>
